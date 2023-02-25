@@ -1,0 +1,518 @@
+style4.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+/* Header + Tool bar */
+header{
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 0%;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-top: 20%;
+    margin-left: 60%;
+}
+
+#Search{
+    position: relative;
+    padding-left: 9px;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+    outline: none;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -10%;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#SearchLogo{
+    margin-top: -8%;
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 130.38%;
+    background-color: rgb(0, 115, 255);
+}
+
+
+
+#Tool_bar{
+    background-color: rgb(27, 40, 56);
+    height: 140px;
+    margin-top: 0.8%;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#item {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    font-weight: bold;
+    color: white;
+}
+
+
+
+#Signup{
+    position: relative;
+    margin-left: 200%;
+    width: 130px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 0px;
+}
+
+.fa-user-plus{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Signin{
+    position: relative;
+    margin-left: 210%;
+    width: 140px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 0px;
+}
+
+.fa-right-to-bracket{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Sale{
+    position: relative;
+    margin-left: 240%;
+    width: 140px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 0px;
+}
+
+.fa-tag{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Cart{
+    position: relative;
+    margin-left: 290%;
+    width: 130px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 0px;
+}
+
+.fa-cart-shopping{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Call{
+    position: relative;
+    margin-top: 70%;
+    margin-left: -1130%; 
+    width: 150px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-phone-volume{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Video{
+    position: relative;
+    margin-top: 70%;
+    margin-left: -1130%; 
+    width: 150px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-youtube{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#News{
+    position: relative;
+    margin-top: 70%;
+    margin-left: -1130%; 
+    width: 150px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-newspaper{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+
+#Recruit{
+    position: relative;
+    margin-top: 54%;
+    margin-left: -930%; 
+    width: 180px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-person{
+    margin-right: 5%;
+    font-size: 30px;
+}
+
+#Store{
+    position: relative;
+    margin-top: 58%;
+    margin-left: -980%; 
+    width: 170px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-store{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+/* menu bar */
+.menu-bar{
+    background-image: linear-gradient(to right, rgb(5,224,254), rgb(4,137,250));
+    margin-top: 0%;
+    width: 100%;
+    height: 50px;
+    padding: 5px 0;
+}
+
+
+.menu-bar ul li a{
+    color: white;
+    font-size: 19px;
+}
+
+.menu-bar ul li a:hover{
+    background-color: white;
+    padding: 15px 0;
+    color: black;
+    border-radius: 10px;
+}
+
+
+#LAPTOP{
+    margin-left: -16%;
+    font-size: 25px;
+  
+}
+
+
+#PC{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#CPU{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#MONITOR{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#KEYBOARD{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#MOUSE{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#HEADPHONE{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#CHAIR{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#GEAR{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+/* Advertise Images */
+#container-2{
+    float: left;
+    width: 150px;
+    height: 350px;
+    margin-left: 0.5%;
+    margin-top: 2.5%;
+    position: fixed;
+}
+
+#container-3{
+    float: right;
+    width: 150px;
+    height: 350px;
+    margin-left: 90.5%;
+    margin-top: 2.5%;
+    position: fixed;
+}
+/* backtop */
+#backtop{
+    width: 80px;
+    height: 70px;
+    color: black;
+    position: fixed;
+    margin-top: 32%;
+    margin-left: 1.5%;
+    float: left;
+    cursor: pointer;
+}
+
+#backtop img{
+    width: 80px;
+    height: 70px;
+}
+
+/* ChatLogo */
+#ChatLogo{
+    position: fixed;
+    margin-top: 28%;
+    margin-left: 88%;
+    float: right;
+    width: 15%;
+    height: 100px;
+    cursor: pointer;
+}
+
+#ChatLogo img{
+    width: 100%;
+    height: 180px;
+}
+
+#ChatBox{
+    background-color: white;
+    position: fixed;
+    margin-top: -6%;
+    margin-left: 68%;
+    float: right;
+    width: 25%;
+    height: 700px;
+}
+
+#headerChatBox
+{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(66, 194, 194);
+}
+
+.text{
+    padding-top: -10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+#headerChatBox .fa-headset {
+    float: left;
+    font-size: 80px;
+    margin-top: -3%;
+    margin-left: 7%;
+    color: rgb(255,255,255);;
+}
+
+.text2{
+    margin-top: -9%;
+    padding-top: 20px;
+    padding-left: 120px;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+#name{
+    margin-left: 5%;
+    width: 350px;
+}
+
+#SĐT{
+    margin-left: 5%;
+    width: 350px;
+}
+
+#Support{
+    margin-left: 5%;
+    width: 350px;
+    height: 30px;
+}
+
+
+
+
+/* Acer-banner */
+.Acer-banner{
+    margin-left: 10%;
+    margin-top: 1%;
+    float: left;
+    width: 80%;
+    height: 100px;
+}
+
+.Acer-banner img{
+    width: 100%;
+    height: 300px;
+}
+
+.location{
+    margin-left: 10%;
+    width: 80%;
+    height: 30px;
+    background-color: rgba(200, 200, 200, 0.29)
+}
+
+
+
+
+/* mẫu làm theo mỗi khi thêm 1 sản phẩm tăng số vào */
+.LapTop{
+    float: left;
+    margin-left: 4%;
+    margin-top: 10%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LapTop img {
+    margin: auto;
+    width: 240px;
+    height: 55%;
+}
+img.a{
+    margin: auto;
+    width: 195px;
+    height: 35%;
+}
+
+
+/* footer */
+.container-end {
+    margin-top: 130%;
+    width: 100%;
+    background-color: rgb(241,240,241);
+}
+
+
+.left{
+    float: left;
+    margin-left: 10%;
+    width: 500px;
+    line-height: 25px;
+}
+
+.number{
+    margin-left: 70px;
+}
+
+.number2{
+    margin-left: 41px;
+}
+    
+
+
+.middle{
+    float: left;
+    width: 550px;
+    line-height: 25px;
+}
+
+.right{
+    float: left;
+    width: 400px;
+}
+
+
+.icon{
+    font-size: 15px;
+    display: flex;
+}
+
+
+
+.icon-discord{
+    margin-left: 20px;
+    color: #5865F2;
+}
+
+.icon-youtube{
+    color: red;
+    margin-top: 50px;
+    margin-left:-309px;
+}
+
+.icon-mail{
+    margin-top: 55px;
+    margin-left: 30px;
+    color: grey;
+}
+
+.icon >*{
+    padding: 20px;
+}

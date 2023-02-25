@@ -1,0 +1,1733 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    z-index: 1;
+}
+/* Header + Tool bar */
+header{
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 0%;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-top: 20%;
+    margin-left: 60%;
+}
+
+#Search{
+    position: relative;
+    padding-left: 9px;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+    outline: none;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -10%;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#SearchLogo{
+    margin-top: -8%;
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 130.38%;
+    background-color: rgb(0, 115, 255);
+}
+
+
+
+#Tool_bar{
+    background-color: rgb(27, 40, 56);
+    height: 140px;
+    margin-top: 0.8%;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#item {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    font-weight: bold;
+    color: white;
+}
+
+
+
+#Signup{
+    position: relative;
+    margin-left: 200%;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 0px;
+}
+
+.fa-user-plus{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Signin{
+    position: relative;
+    margin-left: 210%;
+    width: 130px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 0px;
+}
+
+.fa-right-to-bracket{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Sale{
+    position: relative;
+    margin-left: 240%;
+    width: 130px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 0px;
+}
+
+.fa-tag{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Cart{
+    position: relative;
+    margin-left: 320%;
+    width: 110px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 0px;
+}
+
+.fa-cart-shopping{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Call{
+    position: relative;
+    margin-top: 70%;
+    margin-left: -1070%; 
+    width: 150px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-phone-volume{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#Video{
+    position: relative;
+    margin-top: 70%;
+    margin-left: -1070%; 
+    width: 150px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-youtube{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+#News{
+    position: relative;
+    margin-top: 70%;
+    margin-left: -1070%; 
+    width: 150px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-newspaper{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+
+#Recruit{
+    position: relative;
+    margin-top: 54%;
+    margin-left: -880%; 
+    width: 180px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-person{
+    margin-right: 5%;
+    font-size: 30px;
+}
+
+#Store{
+    position: relative;
+    margin-top: 70%;
+    margin-left: -1010%; 
+    width: 150px;   
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.fa-store{
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+/* menu bar */
+.menu-bar{
+    background-image: linear-gradient(to right, rgb(5,224,254), rgb(4,137,250));
+    margin-top: 0%;
+    width: 100%;
+    height: 50px;
+    padding: 5px 0;
+}
+
+
+.menu-bar ul li a{
+    color: white;
+    font-size: 19px;
+}
+
+.menu-bar ul li a:hover{
+    background-color: white;
+    padding: 15px 0;
+    color: black;
+    border-radius: 10px;
+}
+
+
+#LAPTOP{
+    margin-left: -16%;
+    font-size: 25px;
+}
+
+
+#PC{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#CPU{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#MONITOR{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#KEYBOARD{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#MOUSE{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#HEADPHONE{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#CHAIR{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#GEAR{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+/* Advertise Images */
+#container-2{
+    float: left;
+    width: 150px;
+    height: 350px;
+    margin-left: 0.5%;
+    margin-top: 2.5%;
+    position: fixed;
+}
+
+#container-3{
+    float: right;
+    width: 150px;
+    height: 350px;
+    margin-left: 90.5%;
+    margin-top: 2.5%;
+    position: fixed;
+}
+
+/* backtop */
+#backtop{
+    width: 80px;
+    height: 70px;
+    color: black;
+    position: fixed;
+    margin-top: 32%;
+    margin-left: 1.5%;
+    float: left;
+    cursor: pointer;
+}
+
+#backtop img{
+    width: 80px;
+    height: 70px;
+}
+
+/* menu-bar 2 */
+#area-1{
+    float: left;
+    width: 100%;
+    height: 600px;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: rgb(241,240,241);
+}
+
+.container-4{
+    float: left;
+    width: 190px;
+    height: 570px;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+}
+
+.menu-bar-2 ul li a{
+    color: rgb(75,75,75);
+    font-size: 17px;
+}
+
+#LAPTOP-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+.menu-bar-content-2 i{
+    margin-right: 2%;
+}
+
+#LAPTOP-3{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#PC-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#PC-3{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#CPU-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#MONITOR-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#APPLE{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#KEYBOARD-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#MOUSE-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#HEADPHONE-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#CHAIR-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+#OFFICE-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+#MODULE-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+#GEAR-2{
+    margin-top: 8%;
+    margin-left: -12%;
+}
+
+
+/* big menu LAPTOP GAMING */
+.container-5{
+    visibility: hidden;
+    float: left;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 21.2%;
+    width: 67%;
+    height: 570px;
+    background-color: rgb(255,255,255);
+}
+
+.Section-1{
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    min-width: 150px;
+    max-height: 60px;
+}
+
+.menu-bar-3 ul li {
+    font-size: 13px;
+}
+
+.Title{
+    font-size: 15px;
+    color: rgb(4,137,250);
+    font-weight: bold;
+}
+
+.menu-bar-3 ul li a span:hover {
+    color: rgb(4,137,250);
+}
+
+.Banner{
+    float: right;
+    margin-top: 0%;
+    background-color: rgb(4,137,250);
+    width: 195px;
+    height: 570px;
+}
+
+.Banner img{
+    width: 195px;
+    height: 570px;
+}
+
+
+/* advertise main */
+/* Slider */
+
+.container-6{
+    float: left;
+    background-color: #5865F2;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 750px;
+    height: 350px;
+}
+
+.img-1{
+    margin-top: 1%;
+    margin-left: 0.5%;
+    width: 360px;
+    height: 98px;
+    float: left;
+}
+
+.img-2{
+    margin-top: 5.4%;
+    margin-left: 0.5%;
+    width: 360px;
+    height: 100px;
+    float: left;
+}
+
+.img-3{
+    margin-top: 16.9%;
+    margin-left: -66.29%;
+    width: 360px;
+    height: 100px;
+    float: left;
+}
+
+.img-4{
+    margin-top: 16.9%;
+    margin-left: -43.9%;
+    width: 360px;
+    height: 100px;
+    float: left;
+}
+
+.video-5{
+    float: left;
+    margin-top: 5.5%;
+    margin-left: 0.7%;
+}
+
+#Menubar .Ad-img img {
+    width: 370px;
+    height: 185px;
+    border-radius: 10px;
+}
+
+/* Christmas Banner */
+#Christmas-Banner{
+    float: left;
+    width: 79%;
+    height: 220px;
+    margin-top: 1%;
+    margin-left: 10%;
+    
+}
+
+#Christmas-Banner img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 0.5%;
+}
+
+/* PC-product */
+.TOP-PC{
+    float: left;
+    margin-top: 5%;
+    margin-left: 11.65%;
+    width: 76.6%;
+    height: 50px;
+    background-color: rgb(4,185,252);
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.child{
+    width: 15.45%;
+    display: none;
+    font-weight: bold;
+}
+
+#leftarrow{
+    margin-left: 0%;
+    width: 3%;
+    display: inline-block;
+}
+
+#rightarrow{
+    margin-left: -0.5%;
+    width: 3%;
+    display: inline-block;
+}
+
+#leftarrow button, #rightarrow button {
+    font-weight: bold;
+    cursor: pointer;
+    width: 30px;
+    height: 250px;
+    border: 0px;
+    background-color: rgba(3, 3, 3, 0.091);
+}
+
+#leftarrow button {
+    margin-left: 30%;
+}
+
+
+
+.PC{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.PC img {
+    margin-left: 1.5%;
+    width: 240px;
+    height: 55%;
+}
+
+.PC2{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.PC2 img{
+    margin-left: 8%;
+    width: 210px;
+    height: 55%;
+}
+
+.PC3{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.PC3 img {
+    margin-left: 8%;
+    width: 210px;
+    height: 55%;
+}
+
+.PC4{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.PC4 img {
+    margin-left: 8%;
+    width: 210px;
+    height: 55%;
+}
+
+.PC5{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.PC5 img {
+    margin-left: 8%;
+    width: 210px;
+    height: 55%;
+}
+
+.PC6{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.PC6 img {
+    margin-left: 8%;
+    width: 210px;
+    height: 55%;
+}
+
+.PC7{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.PC7 img {
+    margin-left: 8%;
+    width: 210px;
+    height: 55%;
+}
+
+.PC8{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.PC8 img {
+    margin-left: 8%;
+    width: 210px;
+    height: 55%;
+}
+#PC-product{
+    margin-top: -1.4%;
+    float: left;
+    margin-left: 0%;
+    width: 100%;
+}
+
+/* LAPTOP-PRODUCT */
+.TOP-LAPTOPGAMING{
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(4,185,252)
+}
+
+#LAPTOP-PRODUCT{
+    position: relative;
+    width: 80%;
+    margin-top: 85.7%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#LAPTOPPage-1{
+    width: 100%;
+    height: 780px;
+}
+
+#LAPTOPPage-1 button{
+    width: 40px;
+    height: 40px;
+}
+
+#LAPTOPPage-2{
+    width: 100%;
+    height: 780px;
+}
+
+#LAPTOPPage-2 button{
+    width: 40px;
+    height: 40px;
+}
+
+#LAPTOPPage-3{
+    width: 100%;
+    height: 780px;
+}
+
+#LAPTOPPage-3 button{
+    width: 40px;
+    height: 40px;
+}
+
+.LAPTOP{
+    float: left;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP img {
+    margin-left: 6.5%;
+    width: 200px;
+    height: 55%;
+}
+
+
+.LAPTOP2{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP2 img {
+    margin-top: 10%;
+    margin-left: 6.5%;
+    width: 200px;
+    height: 40%;
+}
+
+.LAPTOP3{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP3 img {
+    margin-left: 10.5%;
+    width: 200px;
+    height: 55%;
+}
+
+
+.LAPTOP4{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP4 img {
+    margin-left: 3.5%;
+    width: 230px;
+    height: 55%;
+}
+
+.LAPTOP5{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP5 img {
+    margin-left: 6.5%;
+    width: 200px;
+    height: 55%;
+}
+
+
+.LAPTOP6{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP6 img {
+    margin-left: 6.5%;
+    width: 200px;
+    height: 55%;
+}
+
+.LAPTOP7{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP7 img {
+    margin-top: 6%;
+    margin-left: 4.5%;
+    width: 230px;
+    height: 50%;
+}
+
+.LAPTOP8{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP8 img {
+    margin-left: 3.5%;
+    width: 230px;
+    height: 55%;
+}
+
+.LAPTOP9{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP9 img {
+    margin-top: 13%;
+    margin-left: 8.5%;
+    width: 200px;
+    height: 45%;
+}
+
+.LAPTOP10{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP10 img {
+    margin-left: 10.5%;
+    width: 200px;
+    height: 55%;
+}
+
+.LAPTOP11{
+    float: left;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP11 img {
+    margin-top: 5%;
+    margin-left: 6.5%;
+    width: 200px;
+    height: 55%;
+}
+
+.LAPTOP12{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOP12 img {
+    margin-left: 6.5%;
+    width: 220px;
+    height: 55%;
+}
+
+/* OFFICELAPTOP */
+
+.TOP-OFFICELAPTOP{
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(4,185,252)
+}
+
+#LAPTOP2-PRODUCT{
+    position: relative;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#LAPTOP2Page-1{
+    width: 100%;
+    height: 780px;
+}
+
+#LAPTOP2Page-1 button{
+    width: 40px;
+    height: 40px;
+}
+
+#LAPTOP2Page-2{
+    width: 100%;
+    height: 780px;
+}
+
+#LAPTOP2Page-2 button{
+    width: 40px;
+    height: 40px;
+}
+
+#LAPTOP2Page-3{
+    width: 100%;
+    height: 780px;
+}
+
+#LAPTOP2Page-3 button{
+    width: 40px;
+    height: 40px;
+}
+
+.LAPTOPVP{
+    float: left;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+
+.LAPTOPVP2{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP2 img {
+    margin-top: 2%;
+    margin-left: 6.5%;
+    width: 220px;
+    height: 45%;
+}
+
+.LAPTOPVP3{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP3 img {
+    margin-top: 2%;
+    margin-left: 6.5%;
+    width: 220px;
+    height: 45%;
+}
+
+.LAPTOPVP4{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP4 img {
+    margin-top: -5%;
+    margin-left: 6.5%;
+    width: 220px;
+    height: 55%;
+}
+
+.LAPTOPVP5{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP5 img {
+    margin-top: 2%;
+    margin-left: 6.5%;
+    width: 220px;
+    height: 45%;
+}
+
+
+.LAPTOPVP6{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP6 img {
+    margin-top: -10%;
+    margin-left: 6.5%;
+    width: 200px;
+    height: 55%;
+}
+
+
+.LAPTOPVP7{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP7 img {
+    margin-top: 0%;
+    margin-left: 6.5%;
+    width: 200px;
+    height: 55%;
+}
+
+.LAPTOPVP8{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP8 img {
+    margin-top: 0%; 
+    margin-left: 6.5%;
+    width: 200px;
+    height: 55%;
+}
+
+.LAPTOPVP9{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP9 img {
+    margin-top: 10%; 
+    margin-left: 6.5%;
+    width: 200px;
+    height: 40%;
+}
+
+.LAPTOPVP10{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP10 img {
+    margin-top: 10%; 
+    margin-left: 6.5%;
+    width: 200px;
+    height: 40%;
+}
+
+.LAPTOPVP11{
+    float: left;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.LAPTOPVP11 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 200px;
+    height: 50%;
+}
+
+/* TOP MONITOR */
+.TOP-MONITOR{
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(4,185,252)
+}
+
+#MONITOR-PRODUCT{
+    position: relative;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#MONITORPage-1{
+    width: 100%;
+    height: 780px;
+}
+
+#MONITORPage-1 button{
+    width: 40px;
+    height: 40px;
+}
+
+#MONITORPage-2{
+    width: 100%;
+    height: 780px;
+}
+
+#MONITORPage-2 button{
+    width: 40px;
+    height: 40px;
+}
+
+#MONITORPage-3{
+    width: 100%;
+    height: 780px;
+}
+
+#MONITORPage-3 button{
+    width: 40px;
+    height: 40px;
+}
+
+
+.MONITOR{
+    float: left;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+
+.MONITOR2{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR2 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+
+.MONITOR3{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR3 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.MONITOR4{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR4 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.MONITOR5{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR5 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.MONITOR6{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR6 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.MONITOR7{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR7 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.MONITOR8{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR8 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.MONITOR9{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR9 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.MONITOR10{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR10 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.MONITOR11{
+    float: left;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.MONITOR11 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+/* TOP-KEYBOARD */
+.TOP-KEYBOARD{
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(4,185,252)
+}
+
+#KEYBOARD-PRODUCT{
+    position: relative;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#KEYBOARDPage-1{
+    width: 100%;
+    height: 780px;
+}
+
+#KEYBOARDPage-1 button{
+    width: 40px;
+    height: 40px;
+}
+
+#KEYBOARDPage-2{
+    width: 100%;
+    height: 780px;
+}
+
+#KEYBOARDPage-2 button{
+    width: 40px;
+    height: 40px;
+}
+
+#KEYBOARDPage-3{
+    width: 100%;
+    height: 780px;
+}
+
+#KEYBOARDPage-3 button{
+    width: 40px;
+    height: 40px;
+}
+
+.KEYBOARD{
+    float: left;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD2{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD2 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD3{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD3 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD4{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD4 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD5{
+    float: left;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD5 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+
+.KEYBOARD6{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 0.6%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD6 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD7{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD7 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD8{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD8 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD9{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD9 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD10{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD10 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+.KEYBOARD11{
+    float: left;
+    margin-top: 1.3%;
+    margin-left: 1.5%;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.KEYBOARD11 img {
+    margin-top: 10%;
+    margin-left: 10.5%;
+    width: 180px;
+    height: 40%;
+}
+
+
+/* ChatLogo */
+#ChatLogo{
+    position: fixed;
+    margin-top: 28%;
+    margin-left: 88%;
+    float: right;
+    width: 15%;
+    height: 100px;
+    cursor: pointer;
+}
+
+#ChatLogo img{
+    width: 100%;
+    height: 180px;
+}
+
+#ChatBox{
+    background-color: white;
+    position: fixed;
+    margin-top: -6%;
+    margin-left: 68%;
+    float: right;
+    width: 25%;
+    height: 700px;
+}
+
+#headerChatBox
+{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(66, 194, 194);
+}
+
+.text{
+    padding-top: -10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+#headerChatBox .fa-headset {
+    float: left;
+    font-size: 80px;
+    margin-top: -3%;
+    margin-left: 7%;
+    color: rgb(255,255,255);;
+}
+
+.text2{
+    margin-top: -9%;
+    padding-top: 20px;
+    padding-left: 120px;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+#name{
+    margin-left: 5%;
+    width: 350px;
+}
+
+#SĐT{
+    margin-left: 5%;
+    width: 350px;
+}
+
+#Support{
+    margin-left: 5%;
+    width: 350px;
+    height: 30px;
+}
+
+
+/* footer */
+.container-end {
+    margin-top: 10%;
+    width: 100%;
+    background-color: rgb(241,240,241);
+}
+
+
+.left{
+    float: left;
+    margin-left: 10%;
+    width: 500px;
+    line-height: 25px;
+}
+
+.number{
+    margin-left: 70px;
+}
+
+.number2{
+    margin-left: 41px;
+}
+    
+
+
+.middle{
+    float: left;
+    width: 550px;
+    line-height: 25px;
+}
+
+.right{
+    float: left;
+    width: 400px;
+}
+
+
+.icon2{
+    font-size: 15px;
+    display: flex;
+}
+
+
+
+.icon2-discord{
+    margin-left: 20px;
+    color: #5865F2;
+}
+
+.icon2-youtube{
+    color: red;
+    margin-top: 50px;
+    margin-left:-309px;
+}
+
+.icon2-mail{
+    margin-top: 55px;
+    margin-left: 30px;
+    color: grey;
+}
+
+.icon2 >*{
+    padding: 20px;
+}

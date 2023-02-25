@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style4.css">
+    <script src="./js/main2.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/852351e3ff.js" crossorigin="anonymous"></script>
+    <title>Infinity Gear</title>
+</head>
+<body onload="show()">
+    <header>
+        <nav id ="Tool_bar" width="100%" style="position: relative;">
+            <ul id="item">
+                <li><a href="index.html"><img id="logo" src="./image/logo-removebg-preview (5).png" alt=""></li></a>
+                <li><input type="text" id="Search" placeholder="Nhập mã hoặc tên sản phẩm..."><div id="SearchLogo" type="button" ><i class="fa-solid fa-magnifying-glass"></div></i></li>
+                <li><button id="Signup"><a href="Signup.html"><i class="fa-solid fa-user-plus"></i>ĐĂNG KÝ</a></button></li>
+                <li><button id="Signin"><a href="Signin.html"><i class="fa-solid fa-right-to-bracket"></i>ĐĂNG NHẬP</a></button></li>
+                <li><button id="Sale"><a href="Sale.html"><i class="fa-solid fa-tag"></i>KHUYẾN MÃI</button></a></li>
+                <li><button id="Cart"><a href=""><i class="fa-solid fa-cart-shopping"></i>GIỎ HÀNG</a></button></li>
+                <li><button id="Call"><a href="" style="color:  rgb(4,137,250);"><i class="fa-solid fa-phone-volume"></i>TỔNG ĐÀI</a></button></li>
+                <li><button id="Video"><a href="" style="color:  rgb(4,137,250);"><i class="fa-brands fa-youtube"></i>VIDEO</a></button></li>
+                <li><button id="News"><a href="" style="color:  rgb(4,137,250);"><i class="fa-solid fa-newspaper"></i>TIN TỨC</a></button></li>
+                <li><button id="Recruit"><a href="" style="color:  rgb(4,137,250);"><i class="fa-solid fa-person"></i>TUYỂN DỤNG</a></button></li>
+                <li><button id="Store"><a href="" style="color:  rgb(4,137,250);"><i class="fa-solid fa-store"></i>CHI NHÁNH</a></button></li>
+                
+            </ul>
+        </nav>
+        <nav>
+            <section class="menu-bar">
+                <div class="container">
+                    <div class="menu-bar-content">
+                        <ul style="margin-left: 10%; display: inline-flex;">
+                            <li id="LAPTOP"><a href=""><i class="fa-solid fa-laptop"></i>LAPTOP</a></li>
+                            <li id="PC"><a href=""><i class="fa-solid fa-computer"></i>PC</a></li>
+                            <li id="CPU"><a href=""><i class="fa-solid fa-microchip"></i>LINH KIỆN PC</a></li>
+                            <li id="MONITOR"><a href=""><i class="fa-solid fa-desktop"></i>MÀN HÌNH</a></li>
+                            <li id="KEYBOARD"><a href=""><i class="fa-solid fa-keyboard"></i>BÀN PHÍM</a></li>
+                            <li id="MOUSE"><a href=""><i class="fa-solid fa-computer-mouse"></i>CHUỘT - MOUSEPAD</a></li>
+                            <li id="HEADPHONE"><a href=""><i class="fa-solid fa-headphones"></i>TAI NGHE - LOA</a></li>
+                            <li id="CHAIR"><a href=""><i class="fa-sharp fa-solid fa-chair"></i>GHẾ - BÀN</a></li>
+                            <li id="GEAR"><a href=""><i class="fa-brands fa-usb"></i></i>PHỤ KIỆN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
+         <div id="container-2">
+            <img src="./image/Picsart_22-11-21_02-50-37-325.png" alt="" width="150px" height="350px" style="border-radius: 10px;"> 
+        </div>
+        <div id="backtop">
+            <img src="image/backtotop_LOGO/7988932-removebg-preview.png" alt="">
+        </div>
+        <div id="container-3">
+            <img src="./image/Picsart_22-11-21_16-22-06-528.png" alt="" width="150px" height="350px" style="border-radius: 10px;"> 
+        </div>
+        <div id="ChatLogo">
+            <img src="image/Logo/logo-removebg-preview (6).png" onclick="OpenBoxChat()">
+        </div>
+        <div id="ChatBox" style="z-index: 2; visibility: hidden; border: 1px solid black; border-radius: 10px;">
+            <div id="headerChatBox" style="border-top-left-radius: 10px; border-top-right-radius:10px ;">
+                <i class="fa-solid fa-xmark" style="margin-left: 95%; font-size: 20px; cursor: pointer;" onclick="CloseBoxChat()"></i>
+                <p class="text">Tư vấn trực tiếp</p>
+                <i  class="fa-solid fa-headset"></i>
+                <p class="text2">Xin chào! Hãy để lại thông tin cần hỗ trợ. Chúng tôi sẵn lòng giải đáp giúp bạn</p>
+            </div>
+            <p class="Text3" style="margin-top: 5%; margin-left: 5%;">Họ và Tên (*)</p>
+            <input id="name" type="text"> 
+            <p class="Text3" style="margin-top: 3%; margin-left: 5%;">Số điện thoại (*)</p>
+            <input id="SĐT" type="text"> 
+            <p class="Text3" style="margin-top: 3%; margin-left: 5%;">Dịch vụ hỗ trợ (*)</p>
+            <select id="Support">
+                <option selected="selected">--Vui Lòng Chọn dịch vụ hỗ trợ</option>
+                <option>Hỗ trợ khách hàng</option>
+                <option>Tư vấn mua hàng</option>
+            </select>
+            <button style="width: 180px; margin-left: 25%; margin-top: 5%; background-color: rgb(66, 194, 194);">Bắt Đầu Chat</button>
+
+        </div>
+
+    <div class="Acer-banner">
+        <img src="./image/banner/acer_bts_1920x450_4a36ac03936b4f979ac8c097cc190014.jpg">
+    </div>
+
+    <h2 style=" margin-top: 20%; margin-left: 10%;">LAPTOP GAMING ACER</h2>
+
+    <div class="location">
+        <p>Bạn đang ở: <a href="index.html">Trang chủ</a><i class="fa-solid fa-chevron-right"></i>Laptop Gaming Acer</p>
+    </div>
+
+    <div class="soft" style="margin-left: 75.2%;">
+        <p>Sắp xếp theo:         
+            <select id="sllp">
+            <option selected="selected">Giá tăng dần</option>
+            <option >Sản phẩm nổi bật</option>
+            <option >Giá giảm dần</option>
+            <option >Tên: A-Z</option>
+            <option >Tên: Z-A</option>
+            <option >Mới Nhất</option>
+            <option >Cũ Nhất</option>
+            <option >Bán chạy nhất</option>
+        </select></p>
+    </div>
+
+<div style="margin-left:10% ;margin-right: 10%; margin-top: -5%; font-weight: bold;">
+    <a href="AcerAspire7.html"><div class=LapTop onmouseover="ShowLaptopbuy()" onmouseout="CloseLaptopbuy()">
+        <div style="text-align: center;">
+            <img class="a" src="image/LAPTOP/acer1.png" alt="">
+        </div>
+        <p style="margin-top: 1%; color: black;">Laptop Gaming Acer Aspire 7 A715 42G R4XX</p>
+        <p style="color:gray;"><del>17,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">14,940,000đ<span style="font-size: 15px; color: green;">-17%</span></p>
+        <button id="buylaptopbtn" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+     
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy2()" onmouseout="CloseLaptopbuy2()">
+        <img src="image/LAPTOP/acer2.jpg" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop Gaming Acer Aspire 7 A715 42G R05G</p>
+        <p style="color:gray;"><del>20,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">17,790,000đ<span style="font-size: 15px; color: green;">-15%</span></p>
+        <button id="buylaptopbtn2" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy3()" onmouseout="CloseLaptopbuy3()">
+        <div style="text-align: center;">
+            <img class="a" src="image/LAPTOP/acer3.png" alt="">
+        </div>
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Aspire 7 A715 75G 58U4</p>
+        <p style="color:gray;"><del>22,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">19,990,000đ<span style="font-size: 15px; color: green;">-18%</span></p>
+        <button id="buylaptopbtn3" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy4()" onmouseout="CloseLaptopbuy4()">
+        <img src="image/LAPTOP/acer4.jpg" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Aspire 7 A715 43G R8GA</p>
+        <p style="color:gray;"><del>23,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">19,990,000đ<span style="font-size: 15px; color: green;">-13%</span></p>
+        <button id="buylaptopbtn4" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy5()" onmouseout="CloseLaptopbuy5()">
+        <div style="text-align: center;">
+            <img class="a" src="image/LAPTOP/acer5.png" alt="">
+        </div>
+        <p style="margin-top: 1%; color: black;">Laptop Gaming Acer Nitro 5 Eagle AN515 57 5669</p>
+        <p style="color:gray;"><del>23,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">19,990,000đ<span style="font-size: 15px; color: green;">-17%</span></p>
+        <button id="buylaptopbtn5" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy6()" onmouseout="CloseLaptopbuy6()">
+        <div style="text-align: center;">
+            <img class="a" src="image/LAPTOP/acer6.png" alt="">
+        </div>
+        <p style="margin-top: 1%; color: black;">Laptop Gaming Acer Nitro 5 AN515 45 R6EV</p>
+        <p style="color:gray;"><del>23,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">20,490,000đ<span style="font-size: 15px; color: green;">-15%</span></p>
+        <button id="buylaptopbtn6" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy7()" onmouseout="CloseLaptopbuy7()">
+        <div style="text-align: center;">
+            <img class="a" src="image/LAPTOP/acer7.png" alt="">
+        </div>
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Nitro 5 Eagle AN515 57 54MV</p>
+        <p style="color:gray;"><del>25,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">21,990,000đ<span style="font-size: 15px; color: green;">-15%</span></p>
+        <button id="buylaptopbtn7" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy8()" onmouseout="CloseLaptopbuy8()">
+        <img src="image/LAPTOP/acer8.jpg" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Nitro 5 Tiger AN515 58 52SP</p>
+        <p style="color:gray;"><del>27,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">24,990,000đ<span style="font-size: 15px; color: green;">-11%</span></p>
+        <button id="buylaptopbtn8" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy9()" onmouseout="CloseLaptopbuy9()">
+        <img src="image/LAPTOP/acer9.jpg" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop Acer Nitro 5 Tiger AN515 58 769J</p>
+        <p style="color:gray;"><del>30,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">27,990,000đ<span style="font-size: 15px; color: green;">-10%</span></p>
+        <button id="buylaptopbtn9" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy10()" onmouseout="CloseLaptopbuy10()">
+        <div style="text-align: center;">
+            <img class="a" src="image/LAPTOP/acer10.png" alt="">
+        </div>
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Nitro 5 AN515 45 R86D</p>
+        <p style="color:gray;"><del>33,490,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">28,490,000đ<span style="font-size: 15px; color: green;">-15%</span></p>
+        <button id="buylaptopbtn10" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy11()" onmouseout="CloseLaptopbuy11()">
+        <img src="image/LAPTOP/acer11.jpg" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Nitro 5 Tiger AN515 58 773Y</p>
+        <p style="color:gray;"><del>32,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">28,990,000đ<span style="font-size: 15px; color: green;">-12%</span></p>
+        <button id="buylaptopbtn11" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy12()" onmouseout="CloseLaptopbuy12()">
+        <div style="text-align: center;">
+            <img class="a" src="image/LAPTOP/acer12.png" alt="">
+        </div>
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Predator Helios 300 PH315 54 99S6</p>
+        <p style="color:gray;"><del>41,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">37,890,000đ<span style="font-size: 15px; color: green;">-10%</span></p>
+        <button id="buylaptopbtn12" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy13()" onmouseout="CloseLaptopbuy13()">
+        <img src="image/LAPTOP/acer13.png" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Predator Helios 300 PH315 55 76KG</p>
+        <p style="color:gray;"><del>48,490,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">43,990,000đ<span style="font-size: 15px; color: green;">-9%</span></p>
+        <button id="buylaptopbtn13" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy14()" onmouseout="CloseLaptopbuy14()">
+        <img src="image/LAPTOP/acer14.png" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Predator Helios 300 PH315 55 751D</p>
+        <p style="color:gray;"><del>59,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">53,990,000đ<span style="font-size: 15px; color: green;">-10%</span></p>
+        <button id="buylaptopbtn14" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy15()" onmouseout="CloseLaptopbuy15()">
+        <img src="image/LAPTOP/acer15.png" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Predator Triton 500 SE PT516 52S 75E3</p>
+        <p style="color:gray;"><del>69,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">64,990,000đ<span style="font-size: 15px; color: green;">-7%</span></p>
+        <button id="buylaptopbtn15" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+     <a href=""><div class=LapTop onmouseover="ShowLaptopbuy16()" onmouseout="CloseLaptopbuy16()">
+        <img src="image/LAPTOP/acer16.png" alt="">
+        <p style="margin-top: 1%; color: black;">Laptop gaming Acer Predator Triton 500 SE PT516 52S 91XH</p>
+        <p style="color:gray;"><del>109,990,000đ</del></p>
+        <p style="margin-top: -6%; font-size: 23px; color: red; ">105,990,000đ<span style="font-size: 15px; color: green;">-3%</span></p>
+        <button id="buylaptopbtn16" style="margin-top: -2.5%; margin-left: 10.1%; position: absolute; font-size: 13px; background-color: red; border-radius: 10px;color: rgb(241,240,241); border: 0.5px; width: 75px; height: 25px; visibility: hidden;">Mua Ngay</button>
+     </div></a>
+
+</div>
+
+<footer>
+    <div class="container-end">
+        <div class="left">
+            <b> CÔNG TY TNHH THƯƠNG MẠI INFINITY GEAR <br></b>
+            <b>EMAIL: CSKH@INFINITYGEAR.COM <br></b>
+            <b>HỆ THỐNG TỔNG ĐÀI MIỄN PHÍ:</b>
+            (Làm việc từ 08h00 - 21h00) <br>
+            Gọi mua hàng           <span class="number"><b>1800 1910</b> </span>  <br>
+            Hỗ trợ khách hàng      <span class="number2"><b>1800 1920</b></span>  <br>
+            <br>
+            <span style="color:rgb(8, 8, 120) ;"><b> <a href="" style="color:#1877F2">
+                Chính sách bảo hành <br>
+                Chính sách thanh toán <br>
+                Chính sách giao hàng <br>
+                Chính sách bảo mật <br>
+                </a>
+                </b>
+            </span> 
+            <img src="./image/logoSaleNoti.png" width="300px">
+        </div>
+
+        <div class="middle">
+            <span style="color:rgb(23, 45, 235) ;"><b>HỆ THỐNG CỬA HÀNG:</b>  <br></span> 
+            <span><b> SHOWROOM HCM</b></span> (Làm việc từ 8h00 - 21h00) <br>
+             - Địa chỉ 1 : 220 Lê Trọng Tấn, Quận Tân Phú. <br>
+             - Địa chỉ 2 : 50 Phan Huy Ích, Phường 15, Quận Tân Bình. <br>
+            <span><b>SHOWROOM HN</b></span>  (Làm việc từ 8h00- 21h00) <br>
+             - Địa chỉ : 50 Hàng xanh, Hà Nội. <br>
+             <span style="color:rgb(23, 45, 235) ;"><b>TRUNG TÂM BẢO HÀNH: </b> </span>   <br>
+             - Địa chỉ: 220 Cộng Hòa, Quận Tân Bình. <br>
+             <br>
+             Mua <span style="color:rgb(38, 77, 235) ;"><a href="" style="color:#1877F2">PC Gaming, Laptop Gaming, Card màn hình, màn hình máy tính, ghế Gaming</a> </span>, thiết bị chơi như PS5 hàng đầu Việt Nam bảo hành chính hãng. <br>
+             Mua online nhiều nhận ưu đãi hấp dẫn như săn sale Giáng Sinh, Halloween, ... <br>
+             <br>
+             - Công ty TNHH Thương Mại Infinity Gear. <br>
+             - GPKD số 0123485693 do Sỡ KH và ĐT TP Hồ Chí Minh cấp ngày 21/11/2022. <br>
+             - GĐ/Sở hữu website: Trần Đức Tú.
+        </div>
+
+        <div class="right" >
+            <h3>FANPAGE</h3>
+            <span class="icon"> 
+            <span style="color:#1877F2;"><a href=""><img src="./image/logo-facebookpng-32204.png" width="25px" ></a>FACEBOOK</span>
+            <span class="icon-discord"><a href=""><img src="./image/discord-logo-png-7617.png" width="30px"></a>DISCORD</span>
+            <span class="icon-youtube"><a href=""><img src="image/youtube-logo-png-2067.png" width="30px"></a>YOUTUBE</span>
+            <span class="icon-mail" > <a href=""><img src="./image/Gmail_Logo_128px.png" width="25px"></a>GMAIL</span>
+            </span>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(this).scrollTop()){
+                $('#backtop').fadeIn();
+            }else{
+                $('#backtop').fadeOut();
+            }
+        });
+        $("#backtop").click(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 213, 0),white);
+}
+body{
+    overflow-x: hidden;
+}
+.empty{
+    margin-top: 100px;
+}
+.holder{
+    text-align: center;
+    width: 400px;
+    height: 90px;
+    margin: auto;
+    border-radius: 10px;
+}
+.logo{
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.header{
+    background-color: rgb(27, 40, 56);
+    color: white;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+
+}
+table.headerText{
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+.hotline{
+    border: rgb(73, 204, 255) 3px solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(73, 204, 255);
+    font-weight: bold;
+    
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    text-align: center;
+}
+
+.content{
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 90%;
+    height: 1050px;
+    padding:10px;
+    margin: auto;
+}
+#Asus{
+    background-color: rgb(50, 219, 219);
+}   
+#Acer{
+    background-color: #5cee8d;
+}
+
+.product{
+    text-align: left;
+    background-color: white;
+    width: 45%;
+    height: 280px;
+    float: left;
+    padding-left: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.HinhAnh{
+    float: left;
+    width: 230px;
+}
+td.top{
+    border-top: dashed;
+    border-right: dashed;
+    width: 50%;
+    padding: 5px;
+}
+td.bottom{
+    border-top: dashed;
+    border-right: dashed;
+    padding: 5px;
+
+}
+td.small{
+    border-top: dashed;
+    border-right: dashed;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+.Button{
+    text-align: center;
+    padding-top: 20px;
+    float: right;
+}
+.XT{
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid blue;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    color: blue;
+}
+.red{
+    color: red;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.contentfooter{
+    line-height: 1.8;
+    width: 30%;
+    text-align: left;
+    float: left;
+    padding-left: 40px;
+}
+.Icon{
+    padding-right: 10px;
+    
+}

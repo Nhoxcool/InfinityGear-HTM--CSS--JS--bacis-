@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/852351e3ff.js" crossorigin="anonymous"></script>
+    <title>Infinity Gear</title>
+</head>
+<body>
+    <header>
+        <nav id ="Tool_bar" width="100%" style="position: relative;">
+            <ul id="item">
+                <li><a href="index.html"><img id="logo" src="./image/logo-removebg-preview (5).png" alt=""></li></a>
+                <li><input type="text" id="Search" placeholder="Nhập mã hoặc tên sản phẩm..."><div id="SearchLogo" type="button" ><i class="fa-solid fa-magnifying-glass"></div></i></li>
+                <li><button id="Signup"><a href="Signup.html"><i class="fa-solid fa-user-plus"></i>ĐĂNG KÝ</a></button></li>
+                <li><button id="Signin"><a href="./Signin.html"><i class="fa-solid fa-right-to-bracket"></i>ĐĂNG NHẬP</a></button></li>
+                <li><button id="Sale"><a href="Sale.html"><i class="fa-solid fa-tag"></i>KHUYẾN MÃI</button></a></li>
+                <li><button id="Cart"><a href=""><i class="fa-solid fa-cart-shopping"></i>GIỎ HÀNG</a></button></li>
+                <li><button id="Call"><a href="" style="color:  rgb(4,137,250);"><i class="fa-solid fa-phone-volume"></i>TỔNG ĐÀI</a></button></li>
+                <li><button id="Video"><a href="" style="color:  rgb(4,137,250);"><i class="fa-brands fa-youtube"></i>VIDEO</a></button></li>
+                <li><button id="News"><a href="" style="color:  rgb(4,137,250);"><i class="fa-solid fa-newspaper"></i>TIN TỨC</a></button></li>
+                <li><button id="Recruit"><a href="" style="color:  rgb(4,137,250);"><i class="fa-solid fa-person"></i>TUYỂN DỤNG</a></button></li>
+                <li><button id="Store"><a href="" style="color:  rgb(4,137,250);"><i class="fa-solid fa-store"></i>CHI NHÁNH</a></button></li>
+                
+            </ul>
+        </nav>
+        <nav>
+            <section class="menu-bar">
+                <div class="container">
+                    <div class="menu-bar-content">
+                        <ul style="margin-left: 10%; display: inline-flex;">
+                            <li id="LAPTOP"><a href=""><i class="fa-solid fa-laptop"></i>LAPTOP</a></li>
+                            <li id="PC"><a href=""><i class="fa-solid fa-computer"></i>PC</a></li>
+                            <li id="CPU"><a href=""><i class="fa-solid fa-microchip"></i>LINH KIỆN PC</a></li>
+                            <li id="MONITOR"><a href=""><i class="fa-solid fa-desktop"></i>MÀN HÌNH</a></li>
+                            <li id="KEYBOARD"><a href=""><i class="fa-solid fa-keyboard"></i>BÀN PHÍM</a></li>
+                            <li id="MOUSE"><a href=""><i class="fa-solid fa-computer-mouse"></i>CHUỘT - MOUSEPAD</a></li>
+                            <li id="HEADPHONE"><a href=""><i class="fa-solid fa-headphones"></i>TAI NGHE - LOA</a></li>
+                            <li id="CHAIR"><a href=""><i class="fa-sharp fa-solid fa-chair"></i>GHẾ - BÀN</a></li>
+                            <li id="GEAR"><a href=""><i class="fa-brands fa-usb"></i></i>PHỤ KIỆN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
+         <div id="container-2">
+            <img src="./image/Picsart_22-11-21_02-50-37-325.png" alt="" width="150px" height="350px" style="border-radius: 10px;"> 
+        </div>
+        <div id="backtop">
+            <img src="image/backtotop_LOGO/7988932-removebg-preview.png" alt="">
+        </div>
+        <div id="container-3">
+            <img src="./image/Picsart_22-11-21_16-22-06-528.png" alt="" width="150px" height="350px" style="border-radius: 10px;"> 
+        </div>
+        <div id="ChatLogo">
+            <img src="image/Logo/logo-removebg-preview (6).png" onclick="OpenBoxChat()">
+        </div>
+        <div id="ChatBox" style="z-index: 2; visibility: hidden; border: 1px solid black; border-radius: 10px;">
+            <div id="headerChatBox" style="border-top-left-radius: 10px; border-top-right-radius:10px ;">
+                <i class="fa-solid fa-xmark" style="margin-left: 95%; font-size: 20px; cursor: pointer;" onclick="CloseBoxChat()"></i>
+                <p class="SPtext">Tư vấn trực tiếp</p>
+                <i  class="fa-solid fa-headset"></i>
+                <p class="text2">Xin chào! Hãy để lại thông tin cần hỗ trợ. Chúng tôi sẵn lòng giải đáp giúp bạn</p>
+            </div>
+            <p class="Text3" style="margin-top: 5%; margin-left: 5%;">Họ và Tên (*)</p>
+            <input id="name" type="text"> 
+            <p class="Text3" style="margin-top: 3%; margin-left: 5%;">Số điện thoại (*)</p>
+            <input id="SĐT" type="text"> 
+            <p class="Text3" style="margin-top: 3%; margin-left: 5%;">Dịch vụ hỗ trợ (*)</p>
+            <select id="Support">
+                <option selected="selected">--Vui Lòng Chọn dịch vụ hỗ trợ</option>
+                <option>Hỗ trợ khách hàng</option>
+                <option>Tư vấn mua hàng</option>
+            </select>
+            <button style="width: 180px; margin-left: 25%; margin-top: 5%; background-color: rgb(66, 194, 194);">Bắt Đầu Chat</button>
+
+        </div>
+        <div class="container-4*" align="center" >
+            <h1>TẠO TÀI KHOẢN</h1>
+            <table class="table-container">
+                <tr>
+                    <td><input type="text" class="small-col" placeholder="Tên đăng nhập"><span class="icon"><i class="fa-solid fa-user"></i></span></td>
+                </tr>
+                <tr>
+                    <td><input type="text"  class="small-col" placeholder="Mật khẩu"><span class="icon"><i class="fa-solid fa-lock"></i></span></td>
+                </tr>
+                <tr>
+                    
+                    <td><input type="text" class="small-col" placeholder="Xác nhận mật khẩu"><span class="icon"><i class="fa-solid fa-lock"></i></span></td>
+                </tr>
+                <tr>
+                   
+                    <td><input type="text" class="small-col" placeholder="Email"><span class="icon"><i class="fa-solid fa-envelope"></i></span></td>
+                </tr>
+                <tr>
+                   
+                    <td><input type="text" class="small-col" placeholder="Số điện thoại"><span class="icon"><i class="fa-solid fa-phone"></i></span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="button" value="Đăng ký" class="signinbutton"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-end">
+            <div class="left">
+                <b> CÔNG TY TNHH THƯƠNG MẠI INFINITY GEAR <br></b>
+                <b>EMAIL: CSKH@INFINITYGEAR.COM <br></b>
+                <b>HỆ THỐNG TỔNG ĐÀI MIỄN PHÍ:</b>
+                (Làm việc từ 08h00 - 21h00) <br>
+                Gọi mua hàng           <span class="number"><b>1800 1910</b> </span>  <br>
+                Hỗ trợ khách hàng      <span class="number2"><b>1800 1920</b></span>  <br>
+                <br>
+                <span style="color:rgb(8, 8, 120) ;"><b> <a href="" style="color:#1877F2">
+                    Chính sách bảo hành <br>
+                    Chính sách thanh toán <br>
+                    Chính sách giao hàng <br>
+                    Chính sách bảo mật <br>
+                    </a>
+                    </b>
+                </span> 
+                <img src="./image/logoSaleNoti.png" width="300px">
+            </div>
+    
+            <div class="middle">
+                <span style="color:rgb(23, 45, 235) ;"><b>HỆ THỐNG CỬA HÀNG:</b>  <br></span> 
+                <span><b> SHOWROOM HCM</b></span> (Làm việc từ 8h00 - 21h00) <br>
+                 - Địa chỉ 1 : 220 Lê Trọng Tấn, Quận Tân Phú. <br>
+                 - Địa chỉ 2 : 50 Phan Huy Ích, Phường 15, Quận Tân Bình. <br>
+                <span><b>SHOWROOM HN</b></span>  (Làm việc từ 8h00- 21h00) <br>
+                 - Địa chỉ : 50 Hàng xanh, Hà Nội. <br>
+                 <span style="color:rgb(23, 45, 235) ;"><b>TRUNG TÂM BẢO HÀNH: </b> </span>   <br>
+                 - Địa chỉ: 220 Cộng Hòa, Quận Tân Bình. <br>
+                 <br>
+                 Mua <span style="color:rgb(38, 77, 235) ;"><a href="" style="color:#1877F2">PC Gaming, Laptop Gaming, Card màn hình, màn hình máy tính, ghế Gaming</a> </span>, thiết bị chơi như PS5 hàng đầu Việt Nam bảo hành chính hãng. <br>
+                 Mua online nhiều nhận ưu đãi hấp dẫn như săn sale Giáng Sinh, Halloween, ... <br>
+                 <br>
+                 - Công ty TNHH Thương Mại Infinity Gear. <br>
+                 - GPKD số 0123485693 do Sỡ KH và ĐT TP Hồ Chí Minh cấp ngày 21/11/2022. <br>
+                 - GĐ/Sở hữu website: Trần Đức Tú.
+            </div>
+    
+            <div class="right" >
+                <h3>FANPAGE</h3>
+                <span class="icon2"> 
+                <span style="color:#1877F2;"><a href=""><img src="./image/logo-facebookpng-32204.png" width="25px" ></a>FACEBOOK</span>
+                <span class="icon2-discord"><a href=""><img src="./image/discord-logo-png-7617.png" width="30px"></a>DISCORD</span>
+                <span class="icon2-youtube"><a href=""><img src="image/youtube-logo-png-2067.png" width="30px"></a>YOUTUBE</span>
+                <span class="icon2-mail" > <a href=""><img src="./image/Gmail_Logo_128px.png" width="25px"></a>GMAIL</span>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(this).scrollTop()){
+                $('#backtop').fadeIn();
+            }else{
+                $('#backtop').fadeOut();
+            }
+        });
+        $("#backtop").click(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+        });
+    });
+</script>
+</html>
